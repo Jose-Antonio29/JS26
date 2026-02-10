@@ -9,5 +9,9 @@ if (operador=="+") {
 } else if (operador=="*") {
     alert(num1+" * "+num2+" = "+(num1*num2));
 } else if (operador=="/") {
+    if (num2==0) {
+        alert("No se puede dividir entre 0");
+    } else {
     alert(num1+" / "+num2+" = "+(num1/num2));
+    }
 }
