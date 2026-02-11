@@ -9,5 +9,6 @@ function diaSemana() {
         case 5: document.getElementById("p").innerHTML= "Viernes"; break;
         case 6: document.getElementById("p").innerHTML= "Sábado"; break;
         case 7: document.getElementById("p").innerHTML= "Domingo"; break;
+        default: document.getElementById("p").innerHTML= "Opción errónea"; break;
     }
 }
